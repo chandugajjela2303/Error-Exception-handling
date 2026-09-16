@@ -30,7 +30,7 @@ if a>b:
 #ELSE : Optional(non-exceptions)
 #FINALLY : Always it will display
 
-while True:
+'''while True:
     try:
         a=int(input("a value"))
         b=int(input("b value"))
@@ -41,6 +41,83 @@ while True:
     else:
         print("no exceptions")
     finally:
-        print("program ends......")
+        print("program ends......")'''
+
+
+#File Handling
+#write()
+'''a=open("pooja.txt","w")
+a.write("python")
+a.close()
+
+
+a=open("pooja.txt","w")
+a.write("java")
+a.close()'''
+
+#append()
+'''a=open("pooja.txt","a")
+a.write("\tdsa")
+a.close()
+
+a=open("pooja.txt","w")
+a.write(input("data"))
+a.close()
+
+a=open("pooja.txt","w")
+b=input("enter the data")
+a.write(b)
+a.close()'''
+
+
+#Readlines()
+'''a=open("pooja.txt")
+#print(a.read())#it will  display entire content
+#print(a.readline())#it will display firtline
+#print(a.read(10))#it will display no.of characters
+#print(a.readlines())#it will display with \n'''
+
+#Writelines() : It makes every object side by side.
+'''names=["sai","chandu","ishu","aishu","sangu"]
+a=open("priya.txt","w")
+a.writelines("\n".join(names))
+a.close()'''
+
+
+'''a=open("mymodule.py")
+print(a.read())'''
+
+'''a=open("C:\\Users\\Lenovo\\OneDrive\\Documents\\codegnan\\compiler\\tasks.py")
+print(a.read())'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         
     
